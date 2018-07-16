@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+body{
+    font-size:12px;
+}
+.header h5{
+    font-size:24px;
+}
+.position{
+    position: relative;
+}
+.radiusinput{
+    margin-bottom: 10px;
+}
+.radiusinput .el-input__inner{
+    border-radius:50px;
+    height:30px;
+}
+.radiodiv .el-dialog--center{
+    text-align: left;
+}
+.itembox{
+    position: absolute;
+    width: 300px;
+    left: 512px;
+    top: 0;
+}
+.arrow-icon{
+    background: #fff;
+}
+/**
+**左侧导航
+**
+**/
+.leftNav ul li{
+    width: 100%;
+}
+.leftNav ul li .el-submenu__title{
+    background: #fafbfc;
+}
+.leftNav ul li .el-submenu__title a{
+    text-decoration:none;
+    color: #323C47;
+}
+.leftNav .leftNav .el-menu{
+    background: #fafbfc;
+}
+/**
+**鼠标移入导航
+**/
+.el-submenu__title:hover{
+    background: #fafbfc;
+}
+.leftNav ul li.is-opened .el-submenu__title{
+    background: #4da1ff;
+}
+/**
+**
+**
+**/
+.el-menu-item-group a{
+    text-decoration:none;
+}
+.el-menu-item-group a span{
+    color: #323C47;
+}
+
+.table_input_type .el-input__inner{
+    margin: 0;
+    width: 40%;
+}
+/********************/
+.table_type .el-table__body-wrapper td{
+    padding: 5px 0;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #323C47;
+    letter-spacing: 0;
+}
+
+.el-table td div{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #323C47;
+    letter-spacing: 0;
+}
+
+.el-table td, .el-table th.is-leaf{
+    font-weight:inherit !important;
+    font-family: PingFangSC-Regular !important;
+    font-size: 12px;
+    color: #323C47 !important;
+    letter-spacing: 0 !important;
+  }
+/* .el-table__header-wrapper */
+.el-table td, .el-table th {
+    padding: 9px 0;
+    min-width: 0;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    position: relative;
+}
+
+.el-table .cell {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    white-space: nowrap;
+    word-break: break-all;
+    line-height: 14px;
+}
+
+.systemManage{
+  padding:10px;
+  height: 100%;
+}
+.table_type{height: 100%}
